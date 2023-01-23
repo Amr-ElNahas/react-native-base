@@ -1,9 +1,9 @@
 const palette = {
-	purple: '#5A31F4',
-	green: '#0ECD9D',
-	red: '#CD0E61',
-	black: '#0B0B0B',
-	white: '#F0F2F3'
+	purple: "#5A31F4",
+	green: "#0ECD9D",
+	red: "#CD0E61",
+	black: "#0B0B0B",
+	white: "#F0F2F3"
 };
 
 export const theme = {
@@ -13,25 +13,25 @@ export const theme = {
 		primary: palette.purple,
 		success: palette.green,
 		danger: palette.red,
-		failure: palette.red,
+		failure: palette.red
 	},
 	spacing: {
 		s: 8,
 		m: 16,
 		l: 24,
-		xl: 40,
+		xl: 40
 	},
 	textVariants: {
 		header: {
-			fontFamily: 'Raleway',
+			fontFamily: "Raleway",
 			fontSize: 36,
-			fontWeight: 'bold'
+			fontWeight: "bold"
 		},
 		body: {
-			fontFamily: 'Merriweather',
-			fontSize: 16,
+			fontFamily: "Merriweather",
+			fontSize: 16
 		}
-	},
+	}
 };
 
 export const darkTheme = {
@@ -39,6 +39,6 @@ export const darkTheme = {
 	colors: {
 		...theme.colors,
 		background: palette.black,
-		foreground: palette.white,
+		foreground: palette.white
 	}
 };
